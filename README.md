@@ -18,12 +18,12 @@ To use this in your Mocha tests, update your run command to use Mocha-Splunk rep
  
  To use the reporter, below is list of reporter options that needs to be setup
 
-**| Option | Required |Description |**
+| Option | Required |Description |
 |--|--|--|
 |  run_no | No| Test run number / build number|
 |  test_env| No| Test environment e.g. QA/UAT |
 |  git_branch| No| Git branch under test|
-|  splunk_host| yes | Splunk host name e.g. splunk.com:8088|
+|  splunk_host| Yes | Splunk host name e.g. splunk.com:8088|
 |  splunk_url| No| URL for event collector|
-|  splunk_token| yes | Splunk HTTP token|
+|  splunk_token| Yes | Splunk HTTP token|
 |  debug| No| print debug information from the reporter |
