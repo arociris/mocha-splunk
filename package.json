@@ -1,0 +1,21 @@
+{
+  "name": "mocha-splunk",
+  "version": "1.0.0",
+  "description": "Splunk reporter for Mocha",
+  "main": "splunkReporter.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "files": [
+    "addContext.js",
+    "splunkReporter.js"
+  ],
+  "dependencies": {
+    "json-stringify-safe": "^5.0.1",
+    "lodash.isobject": "^3.0.2",
+    "mocha": "^9.1.3",
+    "lodash.isempty": "^4.4.0"
+  }
+}
