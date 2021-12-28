@@ -27,3 +27,4 @@ To use this in your Mocha tests, update your run command to use Mocha-Splunk rep
 |  splunk_url| No| URL for event collector|
 |  splunk_token| Yes | Splunk HTTP token|
 |  debug| No| print debug information from the reporter |
+|  useProcessVar|No| Whether to read options from environment variables|
