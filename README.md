@@ -17,13 +17,7 @@ To use this in your Mocha tests, update your run command to use Mocha-Splunk rep
 `mocha --reporter mocha-splunk --reporter-options <> testfiles.js`
  
  To use the reporter, below is list of reporter options that needs to be setup
- 1. run_no 
- 2. test_env
- 3. git_branch
- 4. splunk_host
- 5. splunk_url
- 6. splunk_token
- 7. debug
+
 **| Option | Required |Description |**
 |--|--|--|
 |  run_no | No| Test run number / build number|
