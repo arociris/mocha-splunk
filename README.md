@@ -14,7 +14,7 @@ This reporter will log below mentioned information to splunk
 5. Test result
 6. Additional debug information
 To use this in your Mocha tests, update your run command to use Mocha-Splunk reporter as below:
-`mocha --reporter mocha-splunk --reporter-options <> testfiles.js`
+`mocha --reporter mocha-splunk --reporter-options <options> testfiles.js`
  
  To use the reporter, below is list of reporter options that needs to be setup
 
