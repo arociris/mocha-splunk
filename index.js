@@ -8,7 +8,7 @@ const {
     EVENT_HOOK_END
 } = Mocha.Runner.constants;
 
-const splunk = function (runner, options) {
+const mochaSplunk = function (runner, options) {
     if (options.reporterOptions) {
         lib.setOptions(options.reporterOptions)
     }
@@ -32,4 +32,4 @@ const splunk = function (runner, options) {
 
 
 }
-module.exports = splunk;
+module.exports = mochaSplunk;
