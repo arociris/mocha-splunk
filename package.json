@@ -8,10 +8,6 @@
   },
   "author": "neeraj jain",
   "license": "ISC",
-  "files": [
-    "addContext.js",
-    "splunkReporter.js"
-  ],
   "dependencies": {
     "json-stringify-safe": "^5.0.1",
     "lodash.isobject": "^3.0.2",
