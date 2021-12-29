@@ -3,7 +3,7 @@
 This is a reporter for Mocha to log test results to Splunk. 
 
 **Installation**
-    ---- WIP
+    to install run `npm install mocha-splunk`
 
 **Usage**
 This reporter will log below mentioned information to splunk
