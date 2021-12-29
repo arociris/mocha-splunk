@@ -28,3 +28,7 @@ To use this in your Mocha tests, update your run command to use Mocha-Splunk rep
 |  splunk_token| Yes | Splunk HTTP token|
 |  debug| No| print debug information from the reporter |
 |  useProcessVar|No| Whether to read options from environment variables|
+
+**Quering splunk**
+In the new search, mention your index and source type as http event. This will list your test results
+![image](https://user-images.githubusercontent.com/31276396/147637937-a963e85e-3aa2-494d-953c-697f548fb93d.png)
