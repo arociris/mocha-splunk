@@ -2,10 +2,10 @@
 
 This is a reporter for Mocha to log test results to Splunk. 
 
-**Installation**
-    to install run `npm install mocha-splunk`
+**Installation**  
+    To install run `npm install mocha-splunk`
 
-**Usage**
+**Usage**  
 This reporter will log below mentioned information to splunk
 1. Test run number
 2. Git branch
@@ -29,6 +29,6 @@ To use this in your Mocha tests, update your run command to use Mocha-Splunk rep
 |  debug| No| print debug information from the reporter |
 |  useProcessVar|No| Whether to read options from environment variables|
 
-**Quering splunk**
+**Quering splunk**  
 In the new search, mention your index and source type as http event. This will list your test results
 ![image](https://user-images.githubusercontent.com/31276396/147637937-a963e85e-3aa2-494d-953c-697f548fb93d.png)
