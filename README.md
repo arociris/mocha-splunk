@@ -24,10 +24,12 @@ To use this in your Mocha tests, update your run command to use Mocha-Splunk rep
 |  test_env| No| Test environment e.g. QA/UAT |
 |  git_branch| No| Git branch under test|
 |  splunk_host| Yes | Splunk host name e.g. splunk.com:8088|
-|  splunk_url| No| URL for event collector|
+|  splunk_url| No| URL for event collector e.g. /services/collector|
 |  splunk_token| Yes | Splunk HTTP token|
 |  debug| No| print debug information from the reporter |
 |  useProcessVar|No| Whether to read options from environment variables|
+
+Make sure to providing values mandatory options as outlined in above table to make sure smooth reporting on slack
 
 **Quering splunk**  
 In the new search, mention your index and source type as http event. This will list your test results
