@@ -34,3 +34,5 @@ Make sure to providing values mandatory options as outlined in above table to ma
 **Quering splunk**  
 In the new search, mention your index and source type as http event. This will list your test results
 ![image](https://user-images.githubusercontent.com/31276396/147637937-a963e85e-3aa2-494d-953c-697f548fb93d.png)
+
+Note: This reporter is based on [mochawesome](https://github.com/adamgruber/mochawesome). Many thanks to the maintainers. 
