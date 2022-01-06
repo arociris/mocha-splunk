@@ -1,6 +1,6 @@
 {
   "name": "mocha-splunk",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Splunk reporter for Mocha",
   "main": "index.js",
   "scripts": {
