@@ -1,6 +1,6 @@
 {
   "name": "mocha-splunk",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Splunk reporter for Mocha",
   "main": "index.js",
   "scripts": {
@@ -16,11 +16,12 @@
     "dashboard",
     "splunk"
   ],
-   "homepage": "https://github.com/jain-neeeraj/mocha-splunk#readme",
+  "homepage": "https://github.com/jain-neeeraj/mocha-splunk#readme",
   "dependencies": {
+    "follow-redirects": "^1.14.9",
     "json-stringify-safe": "^5.0.1",
+    "lodash.isempty": "^4.4.0",
     "lodash.isobject": "^3.0.2",
-    "mocha": "^9.1.3",
-    "lodash.isempty": "^4.4.0"
+    "mocha": "^9.1.3"
   }
 }
